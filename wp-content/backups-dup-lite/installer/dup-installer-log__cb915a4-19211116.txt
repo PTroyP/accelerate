@@ -1,0 +1,776 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:22:17
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.27                                |7.4.21
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2022-01-19 21:11:16
+WP VERSION__________: 5.8.3
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.23
+DB TABLES___________: 46
+DB ROWS_____________: 1,878
+DB FILE SIZE________: 10.8MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Users/troy/Sites/accelerate"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/accelerate/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/troy/Sites/accelerate/20220119_accelerate_[HASH]_20220119211116_archive.zip"
+SIZE________________: 44.2MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-220119222217-61e88f194a411-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 10:22:21 - RUNTIME: 4.6908 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:23:24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.34 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (6.72MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/troy/Sites/accelerate/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:/Users/troy/Sites/accelerate/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:252]
+**ERROR** Query size limit [length=4194304] [sql=...]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+DATABASE: table "xCJ_options" row count mismatch; expected "337" in database"336"
+ERROR: Database Table row count verification was failed for table(s): xCJ_options
+ERRORS FOUND:	1
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	423
+
+wp_actionscheduler_actions: (0)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (0)
+wp_actionscheduler_logs: (0)
+wp_aps_social_icons: (1)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_nf3_action_meta: (90)
+wp_nf3_actions: (4)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (276)
+wp_nf3_fields: (4)
+wp_nf3_form_meta: (113)
+wp_nf3_forms: (1)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (1)
+wp_options: (304)
+wp_postmeta: (502)
+wp_posts: (105)
+wp_term_relationships: (26)
+wp_term_taxonomy: (18)
+wp_termmeta: (0)
+wp_terms: (18)
+wp_usermeta: (24)
+wp_users: (1)
+xCJ_actionscheduler_actions: (4)
+xCJ_actionscheduler_claims: (0)
+xCJ_actionscheduler_groups: (2)
+xCJ_actionscheduler_logs: (10)
+xCJ_commentmeta: (0)
+xCJ_comments: (1)
+xCJ_links: (0)
+xCJ_options: (336)
+xCJ_postmeta: (6)
+xCJ_posts: (5)
+xCJ_term_relationships: (1)
+xCJ_term_taxonomy: (1)
+xCJ_termmeta: (0)
+xCJ_terms: (1)
+xCJ_usermeta: (19)
+xCJ_users: (1)
+xCJ_wpforms_tasks_meta: (2)
+Removed '55' cache/transient rows
+
+INSERT DATA RUNTIME: 1.1232 sec.
+STEP-2 COMPLETE @ 10:23:25 - RUNTIME: 1.1299 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] QUERY ERROR: size limit
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "xCJ_options" row count mismatch; expected "337" in database"336"
+
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:24:16
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Accelerate"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home3/joybubbl/public_html/accelerate"
+path_new______________: "/Users/troy/Sites/accelerate"
+siteurl_______________: "http://localhost:8888/accelerate"
+url_old_______________: "http://accelerate.troyparkerweb.com"
+url_new_______________: "http://localhost:8888/accelerate"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aps_social_icons"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   276][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   304][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   502][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   105][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_actionscheduler_actions"_____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "xCJ_actionscheduler_groups"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_actionscheduler_logs"________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "xCJ_comments"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "xCJ_options"_____________________________________[ROWS:   336][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_postmeta"____________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_posts"_______________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_term_relationships"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_term_taxonomy"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_termmeta"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "xCJ_terms"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_usermeta"____________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+
+EVALUATE TABLE: "xCJ_wpforms_tasks_meta"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/joybubbl/public_html/accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  2:"\/home3\/joybubbl\/public_html\/accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  3:"%2Fhome3%2Fjoybubbl%2Fpublic_html%2Faccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  4:"\home3\joybubbl\public_html\accelerate" ==========> "/Users/troy/Sites/accelerate"
+	SEARCH  5:"\\home3\\joybubbl\\public_html\\accelerate" ======> "\/Users\/troy\/Sites\/accelerate"
+	SEARCH  6:"%5Chome3%5Cjoybubbl%5Cpublic_html%5Caccelerate" ==> "%2FUsers%2Ftroy%2FSites%2Faccelerate"
+	SEARCH  7:"//accelerate.troyparkerweb.com" ==================> "//localhost:8888/accelerate"
+	SEARCH  8:"\/\/accelerate.troyparkerweb.com" ================> "\/\/localhost:8888\/accelerate"
+	SEARCH  9:"%2F%2Faccelerate.troyparkerweb.com" ==============> "%2F%2Flocalhost%3A8888%2Faccelerate"
+	SEARCH 10:"https://localhost:8888/accelerate" ===============> "http://localhost:8888/accelerate"
+	SEARCH 11:"https:\/\/localhost:8888\/accelerate" ============> "http:\/\/localhost:8888\/accelerate"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Faccelerate" =====> "http%3A%2F%2Flocalhost%3A8888%2Faccelerate"
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:1877 	|	 Cells:10710 
+UPDATED:	Tables:2 	|	 Rows:10 	|	 Cells:10 
+ERRORS:		0 
+RUNTIME:	0.127100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:24:16 - RUNTIME: 0.1717 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (1)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__cb915a4-19211116.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (3)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=4194304] [sql=...]
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "xCJ_options" row count mismatch; expected "337" in database"336"
+
+
+====================================
