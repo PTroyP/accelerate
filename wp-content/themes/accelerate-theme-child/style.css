@@ -11,8 +11,9 @@ Text Domain:  accelerate-theme-child
 */
 /* HOMEPAGE STYLES */
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    margin: 0 0 3em;
+  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
+  margin: 0 0 3em;
 }
 
 #masthead {
@@ -20,12 +21,18 @@ Text Domain:  accelerate-theme-child
 }
 
 .button {
-	background: #45ac9d;
+  background: #45ac9d;
 }
 
 .featured-work .fw-site-content {
   max-width: 78%;
-  margin:auto;
+  margin: auto;
+}
+
+ul.homepage-featured-work {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 
 .recent-posts .rp-site-content {
@@ -33,12 +40,12 @@ Text Domain:  accelerate-theme-child
   flex-flow: row;
   justify-content: space-between;
   max-width: 78%;
-  margin:auto;
+  margin: auto;
 }
 
 .blog-post {
   width: 45.7%;
-  float:left;
+  float: left;
   margin-bottom: 2em;
 }
 
@@ -46,7 +53,7 @@ Text Domain:  accelerate-theme-child
   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
-  margin: 2em 0 .5em;
+  margin: 2em 0 0.5em;
 }
 
 .blog-post h3 {
@@ -60,22 +67,21 @@ Text Domain:  accelerate-theme-child
   text-transform: uppercase;
 }
 
-
 .rp-site-content .widget-area {
   width: 43.6%;
-  float:left;
+  float: left;
   margin-bottom: 2em;
 }
 
 .rp-site-content .widget-area h3 {
   font-size: 1em;
-  color:#a6a6a6;
+  color: #a6a6a6;
   text-transform: uppercase;
 }
 
 .rp-site-content .widget-area aside h3 {
   font-size: 1.5em;
-  color:#3b3b3b;
+  color: #3b3b3b;
   text-transform: none;
 }
 
@@ -92,14 +98,14 @@ Text Domain:  accelerate-theme-child
 }
 
 .view-color {
-  color:#45ac9d;
+  color: #45ac9d;
   text-transform: uppercase;
 }
 
 /* Blog page */
 
 .index-page .site-content {
-  width: 78%
+  width: 78%;
 }
 
 .single-page .site-content {
@@ -112,46 +118,46 @@ Text Domain:  accelerate-theme-child
 }
 
 .widget.widget_mc4wp_form_widget {
-  position:relative;
+  position: relative;
   border-bottom: 1px solid #a6a6a6;
 }
 
 .widget.widget_search input {
-  color:#a6a6a6;
+  color: #a6a6a6;
 }
 
 #sidebar .widget.widget_categories h2 {
   text-align: left;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: normal;
   text-transform: none;
 }
 
-#sidebar .widget.widget_archive h2{
+#sidebar .widget.widget_archive h2 {
   text-align: left;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: normal;
   text-transform: none;
 }
 
 #sidebar .widget.widget_media_gallery h2 {
-  text-align:left;
-  font-size: .875em;
+  text-align: left;
+  font-size: 0.875em;
   font-weight: normal;
   text-transform: none;
 }
 
 .mc4wp-form-fields p label input {
-  height:auto;
-  width:193px;
+  height: auto;
+  width: 193px;
   text-align: center;
   background: #ffffff;
   padding: 0;
 }
 
 .mc4wp-form-fields p input {
-  height:auto;
-  width:193px;
+  height: auto;
+  width: 193px;
   text-align: center;
   background: #45ac9d;
   padding: 1em 3em;
@@ -164,12 +170,12 @@ Text Domain:  accelerate-theme-child
 /* Archive Case Studies*/
 
 .single-case-site-content {
-  width:960px;
-  margin:auto;
+  width: 960px;
+  margin: auto;
 }
 
 .case-study-content {
-  padding:60px 150px 0 150px;
+  padding: 60px 150px 0 150px;
 }
 
 .case-study-content .main-content {
@@ -178,20 +184,19 @@ Text Domain:  accelerate-theme-child
 
 .case-study-sidebar {
   height: auto;
-  width:45%;
-  float:left;
+  width: 45%;
+  float: left;
   padding-right: 50px;
-
 }
 
-.case-study-sidebar h2{
+.case-study-sidebar h2 {
   font-size: 1.56em;
   line-height: normal;
   margin-bottom: 0px;
 }
-.case-study-sidebar h6{
+.case-study-sidebar h6 {
   color: #a6a6a6;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 300;
   margin-top: 1em;
 }
@@ -201,18 +206,18 @@ Text Domain:  accelerate-theme-child
 }
 
 .case-study-sidebar .live-site {
-  color:#45ac9d;
+  color: #45ac9d;
   text-transform: uppercase;
 }
 
 div.case-study-images img {
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
 .case-study-images {
-  width:50%;
-  float:right;
+  width: 50%;
+  float: right;
   overflow: auto;
   margin-bottom: 4.1em;
 }
@@ -221,26 +226,26 @@ div.case-study-images img {
   margin-bottom: 3em;
 }
 .featured-work h2 {
-  display:block;
+  display: block;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px;
 }
 
 .homepage-featured-work {
-  display:flex;
+  display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin:0px 0px;
+  margin: 0px 0px;
 }
 
 .homepage-featured-work li {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .individual-featured-work h3 {
   text-align: center;
-  margin: 1em 0 .5em;
+  margin: 1em 0 0.5em;
 }
 
 .social-media-navigation ul {
@@ -257,8 +262,7 @@ div.case-study-images img {
   text-align: center;
 }
 .social-media-navigation li {
-
-padding-left: 10px;
+  padding-left: 10px;
 }
 
 .social-media-navigation i {
@@ -267,13 +271,11 @@ padding-left: 10px;
   border-radius: 50%;
 }
 
-
 /*Contact Us*/
 
 .site-content {
-  width:50%;
+  width: 50%;
 }
-
 
 div .site-content h2 {
   font-size: 1.5em;
@@ -291,32 +293,34 @@ div .nf-form-fields-required {
   visibility: hidden;
 }
 
-.nf-error-msg, .ninja-forms-req-symbol {
+.nf-error-msg,
+.ninja-forms-req-symbol {
   visibility: hidden;
 }
 
-#nf-field-1-container, #nf-field-2-container {
-  display:inline-block;
-  width:48%;
+#nf-field-1-container,
+#nf-field-2-container {
+  display: inline-block;
+  width: 48%;
 }
 
 #nf-field-2-container {
   margin-left: 20px;
-  float:right;
+  float: right;
 }
 
 div .nf-form-content label {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 
 div .nf-field-label label {
   font-weight: 600;
 }
 
-div .nf-form-content input[type=button] {
+div .nf-form-content input[type='button'] {
   background: #45ac9d;
-  width:200px;
-  float:right;
+  width: 200px;
+  float: right;
 }
 
 div .nf-form-content .ninja-forms-field {
@@ -329,7 +333,8 @@ element.style {
 }
 
 .about-page {
-  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
   margin: 0 0 3em;
   height: 17em;
 }
@@ -347,13 +352,12 @@ element.style {
   line-height: 1.4em;
   text-align: center;
   width: 58%;
-  margin:auto;
+  margin: auto;
   padding-top: 60px;
 }
 
 .services {
-
-  margin:0 6em;
+  margin: 0 6em;
 }
 
 .services .intro h4 {
@@ -363,13 +367,12 @@ element.style {
 
 .services .intro p {
   text-align: center;
-  padding-top:0;
+  padding-top: 0;
   line-height: 1.697em;
   margin-top: 0;
 }
 
 div .service-block {
-
 }
 
 div .individual-service {
@@ -380,13 +383,12 @@ div .individual-service {
   padding: 30px 0;
 }
 
-.individual-service:nth-child(even){
+.individual-service:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
-
 }
 
 .service-block figure {
@@ -398,7 +400,7 @@ div .individual-service {
 }
 
 .service-block .service-text h2 {
-  margin:0;
+  margin: 0;
   font-weight: normal;
 }
 
@@ -416,16 +418,16 @@ div .individual-service {
 }
 
 .about-contact h2 {
-  margin:0;
+  margin: 0;
   font-weight: normal;
 }
 
 a .button {
   height: 55px;
   width: 240px;
-  padding:0;
+  padding: 0;
   background: #45ac9d;
-  color:#ffffff;
+  color: #ffffff;
   font-size: 1.18em;
   text-align: center;
 }
@@ -436,21 +438,21 @@ a .button {
 /* 404 page */
 
 .page-404 {
-  background: url("img/man-n-desert.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background: url('img/man-n-desert.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
   margin: 0 0 3em;
-  height:31em;
-
+  height: 31em;
 }
 
 .crazy {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.crazy-search h1{
+.crazy-search h1 {
   font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, cursive;
-  width:650px;
+  width: 650px;
   line-height: 1.2em;
   text-align: center;
   letter-spacing: 2px;
@@ -460,16 +462,16 @@ a .button {
 
 .crazy-find h1 {
   font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, cursive;
-  width:650px;
+  width: 650px;
   line-height: 1em;
   text-align: center;
   letter-spacing: 2px;
   text-shadow: 2px 2px #3b3b3b;
-  margin:auto;
+  margin: auto;
 }
 
 .search-404 {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
@@ -479,14 +481,72 @@ a .button {
 .search-404 a {
   text-shadow: 1px 1px #3b3b3b;
 }
-.search-404 .button{
+.search-404 .button {
   text-align: center;
 }
-/*
-iframe #twitter-widget-0 {
-  margin-top: 17px;
+
+.primary-mobile-nav {
+  display: none;
 }
 
-div.heateor_sss_sharing_container div.heateor_sss_sharing_ul a.heateor_sss_linkedin_share {
-  margin-top: 2px;
-} */
+@media only screen and (min-width: 1200px) {
+  div#page {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .homepage-featured-work li {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+  }
+  .individual-featured-work figure {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+  .individual-featured-work img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ul#menu-top-nav {
+    display: flex;
+    justify-content: center;
+  }
+  ul.homepage-featured-work {
+    flex-flow: row wrap;
+  }
+  .homepage-featured-work li {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-content h3 {
+    width: 90%;
+    margin: 3em auto;
+  }
+  
+  .featured-work .fw-site-content {
+    max-width: 90%;
+  }
+
+  .recent-posts .rp-site-content {
+    flex-flow: wrap;
+  }
+
+  .blog-post, .rp-site-content .widget-area {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .blog-post h3, .rp-site-content .widget-area h3 {
+    margin-top: 1em;
+  }
+
+}
