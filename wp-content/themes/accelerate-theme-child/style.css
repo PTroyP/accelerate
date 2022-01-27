@@ -336,8 +336,6 @@ div .nf-form-content .ninja-forms-field {
 }
 
 /*About Page*/
-element.style {
-}
 
 .about-page {
   background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
@@ -378,9 +376,6 @@ element.style {
   padding-top: 0;
   line-height: 1.697em;
   margin-top: 0;
-}
-
-div .service-block {
 }
 
 div .individual-service {
