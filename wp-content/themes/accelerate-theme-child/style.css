@@ -168,7 +168,7 @@ ul.homepage-featured-work {
 }
 
 #wp-comment-cookies-consent {
-  width:100%;
+  width: 100%;
 }
 
 /* Archive Case Studies*/
@@ -185,9 +185,8 @@ ul.homepage-featured-work {
   padding-bottom: 2em;
 }
 .case-study-content {
-  /* padding: 60px 150px 0 150px; */
   width: 80%;
-  margin:auto;
+  margin: auto;
 }
 
 .case-study-content .main-content {
@@ -197,7 +196,6 @@ ul.homepage-featured-work {
 .case-study-sidebar {
   height: auto;
   width: 45%;
-  /* float: left; */
   padding-right: 50px;
 }
 
@@ -229,15 +227,9 @@ div.case-study-images img {
 
 .case-study-images {
   width: 80%;
-  /* float: right; */
-  /* overflow: auto; */
-  /* margin-bottom: 4.1em; */
 }
 
-.single
-
-
-.featured-work {
+.single .featured-work {
   margin-bottom: 3em;
 }
 .featured-work h2 {
@@ -501,7 +493,6 @@ a .button {
   text-align: center;
 }
 
-
 @media only screen and (min-width: 1200px) {
   div#page {
     max-width: 1200px;
@@ -563,7 +554,7 @@ a .button {
   }
   .single-case-site-content .case-study-images {
     flex-flow: wrap;
-    width:100%;
+    width: 100%;
   }
   .single-case-site-content .case-study-sidebar {
     width: 100%;
@@ -574,7 +565,6 @@ a .button {
 }
 
 @media only screen and (max-width: 480px) {
-
   .page-header .primary-navigation ul li a {
     margin: 0 0.5em;
   }
@@ -582,7 +572,7 @@ a .button {
     width: 90%;
     margin: 3em auto;
   }
-  
+
   .featured-work .fw-site-content {
     max-width: 90%;
   }
@@ -591,13 +581,15 @@ a .button {
     flex-flow: wrap;
   }
 
-  .blog-post, .rp-site-content .widget-area {
+  .blog-post,
+  .rp-site-content .widget-area {
     display: flex;
     flex-flow: column;
     width: 100%;
   }
 
-  .blog-post h3, .rp-site-content .widget-area h3 {
+  .blog-post h3,
+  .rp-site-content .widget-area h3 {
     margin-top: 1em;
   }
 
@@ -617,7 +609,7 @@ a .button {
     justify-content: center;
   }
   .service-block figure {
-    width:auto;
+    width: auto;
   }
   .service-block .service-text h2 {
     text-align: center;
@@ -625,7 +617,7 @@ a .button {
   .about-contact {
     flex-flow: row wrap;
     justify-content: center;
-    padding:0px;
+    padding: 0px;
   }
   .about-contact h2 {
     text-align: center;
@@ -646,9 +638,8 @@ a .button {
     width: 80%;
   }
   #nf-field-2-container {
-    float:left;
+    float: left;
     margin-left: 0;
     width: 80%;
   }
-
 }
