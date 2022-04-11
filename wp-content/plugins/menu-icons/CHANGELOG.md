@@ -1,3 +1,13 @@
+##### [Version 0.12.11](https://github.com/codeinwp/wp-menu-icons/compare/v0.12.10...v0.12.11) (2022-03-16)
+
+Add font awesome 5 support
+Enhance compatibility with Otter/Neve
+
+##### [Version 0.12.10](https://github.com/codeinwp/wp-menu-icons/compare/v0.12.9...v0.12.10) (2022-02-07)
+
+- [Fix] Add support for alt attribute for SVG icons
+- Tested up with WordPress 5.9
+
 ##### [Version 0.12.9](https://github.com/codeinwp/wp-menu-icons/compare/v0.12.8...v0.12.9) (2021-08-04)
 
 * Tested compatibility with WordPress 5.8

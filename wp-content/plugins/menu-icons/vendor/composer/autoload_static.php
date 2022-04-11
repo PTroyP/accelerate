@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit74b27492ce991c41571767171a3e8a06
+class ComposerStaticInitf44550e036fbd5cdd6c5a1a84cf40e8f
 {
     public static $files = array (
         '2c2d2fe92db4cd03403dbb108ac263b7' => __DIR__ . '/..' . '/codeinwp/gutenberg-menu-icons/load.php',
@@ -20,7 +20,7 @@ class ComposerStaticInit74b27492ce991c41571767171a3e8a06
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit74b27492ce991c41571767171a3e8a06::$classMap;
+            $loader->classMap = ComposerStaticInitf44550e036fbd5cdd6c5a1a84cf40e8f::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba
+class ComposerStaticInit0bbe2947eb5325f82052be9264c7f540
 {
     public static $files = array (
         'b62570ec8ed5d9ce1990d98269e51fa3' => __DIR__ . '/..' . '/endurance/wp-module-data/bootstrap.php',
@@ -53,8 +53,8 @@ class ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba
     public static $prefixDirsPsr4 = array (
         'wpscholar\\' => 
         array (
-            0 => __DIR__ . '/..' . '/wpscholar/collection',
-            1 => __DIR__ . '/..' . '/wpscholar/url',
+            0 => __DIR__ . '/..' . '/wpscholar/url',
+            1 => __DIR__ . '/..' . '/wpscholar/collection',
         ),
         'WP_Forge\\Helpers\\' => 
         array (
@@ -238,10 +238,10 @@ class ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6868bfd15bd9d0aab761a1c1282a2bba::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0bbe2947eb5325f82052be9264c7f540::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0bbe2947eb5325f82052be9264c7f540::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0bbe2947eb5325f82052be9264c7f540::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit0bbe2947eb5325f82052be9264c7f540::$classMap;
 
         }, null, ClassLoader::class);
     }

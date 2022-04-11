@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'wpscholar\\' => array($vendorDir . '/wpscholar/collection', $vendorDir . '/wpscholar/url'),
+    'wpscholar\\' => array($vendorDir . '/wpscholar/url', $vendorDir . '/wpscholar/collection'),
     'WP_Forge\\Helpers\\' => array($vendorDir . '/wp-forge/helpers/includes'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Newfold\\Plugin\\' => array($baseDir . '/inc'),
